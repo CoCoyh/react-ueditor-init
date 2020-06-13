@@ -1,19 +1,36 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <script type="text/javaScript" src="ueditor/ueditor.config.js"></script>
-    <script type="text/javaScript" src="ueditor/ueditor.all.js"></script>
-    <script type="text/javaScript" src="ueditor/lang/zh-cn/zh-cn.js"></script>
-    <script type="text/javascript" src="ueditor/ueditor.parse.min.js"></script>
-  </head>
-  <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>制作答题卡</title>
+    <link rel="stylesheet" href="js/bootstrap.min.css">
+    <link rel="stylesheet" href="js/jquery-ui.css">
+</head>
+
+<body style='margin-top: 100px'>
+
     <div id="root"></div>
-  </body>
+    <!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/snap.svg-min.js"></script>
+    <script src="js/jquery-ui.js"></script>
+    <script type="text/javascript" async src="MathJax/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <script src="ueditor/ueditor.config.js"></script>
+    <script src="ueditor/ueditor.all.js"></script>
+    <script src="ueditor/lang/zh-cn/zh-cn.js"></script>
+    <!--添加下划线-->
+    <script type="text/javascript" src="ueditor/addSolid.js"></script>
+    <script type="text/javascript" src="ueditor/changeSolid.js"></script>
+    <script src="ueditor/kityformula-plugin/addKityFormulaDialog.js"></script>
+    <script src="ueditor/toggleHeavy.js"></script>
+
+    <script src="ueditor/kityformula-plugin/getKfContent.js"></script>
+    <script src="ueditor/kityformula-plugin/defaultFilterFix.js"></script>
+</body>
+
 </html>
